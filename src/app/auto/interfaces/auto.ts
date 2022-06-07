@@ -1,4 +1,4 @@
-export interface Auto {
+export interface IAuto {
   marca:string;
   modelo: string;
   precio: number;

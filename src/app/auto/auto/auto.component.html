@@ -1,1 +1,27 @@
-<p>auto works!</p>
+<div class="row">
+    <div class="col">
+        <app-lista-auto [autos]="autos"></app-lista-auto>
+    </div>
+    <div class="col">
+        <h2>Agregar</h2>
+        <hr>
+        <form (submit)="Agregar()">
+            <input type="text"
+            placeholder="Marca" 
+            name="marca"
+            [(ngModel)]="nuevo.marca" >
+            <br>
+            <input type="text"
+            placeholder="Modelo" 
+            name="modelo"
+            [(ngModel)]="nuevo.modelo" >
+            <br>
+            <input type="text"
+            placeholder="Precio" 
+            name="precio"
+            [(ngModel)]="nuevo.precio" >
+            <br>
+            <button type="submit">Agregar</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+input{
+    padding: 1px;
+    margin: 2px;
+}
+ul, li{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: medium;
+}

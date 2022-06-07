@@ -1,1 +1,7 @@
-<p>lista-auto works!</p>
+<h2>Autos</h2>
+<hr>
+<ul>
+    <li *ngFor="let auto of autos">
+        {{ auto.marca }}---{{ auto.modelo }}---{{ auto.precio | number }}
+    </li>
+</ul>
